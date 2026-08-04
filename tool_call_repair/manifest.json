@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "toolpkg_id": "com.operit.tool_call_repair",
+  "version": "0.2.0",
+  "main": "dist/main.js",
+  "display_name": {
+    "zh": "工具调用修复层",
+    "en": "Tool Call Repair"
+  },
+  "description": {
+    "zh": "复刻 Command Code 的 Tool Call Repair：在工具执行前确定性修复模型常见的参数漂移（package_proxy tool_name 错位、参数名别名、类型强转、JSON 解码），无法修复时返回精确的字段要求，帮助模型下一轮生成正确格式。",
+    "en": "Command Code style Tool Call Repair: deterministically fix common model parameter drift (package_proxy tool_name misplacement, param aliases, type coercion, JSON decoding) before tool execution; return precise field requirements when unfixable."
+  },
+  "enabled_by_default": true,
+  "subpackages": []
+}
