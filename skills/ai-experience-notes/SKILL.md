@@ -1,1 +1,338 @@
-LS0tCm5hbWU6IEFJ57uP6aqM56yU6K6wCmRlc2NyaXB0aW9uOiAnQUkg57uP6aqM566h55CG5LiO6Ieq5oiR57qg6ZSZ5oqA6IO944CC5oyJ57G75Z6L6Ieq5Yqo5b2S57G75o6S6ZSZ5pa55qGI5ZKM5bel5YW35qih5byP77yM5p6E5bu65Y+v5qOA57Si55qE57uP6aqM5bqT77yb5oqA6IO96Ieq6Lqr5pSv5oyB6Ieq5oiR57qg6ZSZ77yM5Y+R546w5bu66K6u5pyJ6K+v5pe26Ieq5Yqo5L+u5q2j77yM5a6e546w6Zet546v6L+b5YyW44CC5pys5oqA6IO95LqOIHYxLjEyLjArNCDmtYvor5XniYjkuK3mnoTlu7rvvIzpppbmrKHkvb/nlKjor7fliqHlv4XmiYvliqjop6blj5HkuIDmrKHoh6rmiJHkv67mraPjgILnkIborrrkuIrmlK/mjIHku7vkvZXlj6/orqkgQUkg5L+u5pS55oqA6IO955qE5bmz5Y+w54mI5pys44CCJwotLS0KCiMgT3Blcml0IFNlbGYtRXZvbHV0aW9uIFN5c3RlbQoK5q2k5oqA6IO95L2/IE9wZXJpdCDlubPlj7DkuIrnmoQgQUkg5Yqp5omL6IO95aSf5Zyo5pel5bi45L2/55So5Lit5oyB57ut6Ieq5oiR5pS56L+b5ZKM55+l6K+G5rKJ5reA44CCCgojIyDlv6vpgJ/lr7zoiKoKCnwg5Li76aKYIHwg6K+05piOIHwKfC0tLS0tLXwtLS0tLS18CnwgW+inpuWPkeadoeS7tl0oI+S9leaXtuinpuWPkea8lOi/mykgfCDku4DkuYjmg4XlhrXkuIvlupTor6Xop6blj5HmvJToL5sgfAp8IFvnn6Xor4bliIbnsbtdKCPnn6Xor4bliIbnsbspIHwg5bCG5a2m5Yiw55qE55+l6K+G5b2S57G75Yiw5a+55bqU5L2N572uIHwKfCBb6Ieq5oiR57qg6ZSZXSgj6Ieq5oiR57qg6ZSZKSB8IOiHquWKqOS/ruWkjeiHqui6q+W7uuiurumUmeivryB8CnwgW+eOr+Wig+ajgOa1i10oI+eOr+Wig+ajgOa1iykgfCDoh6rliqjmo4DmtYvlvZPliY0gQW5kcm9pZC9BSSDnjq/looMgfAp8IFvotKjph4/mjIfljZddKCPotKjph4/mjIfljZcpIHwg5LuA5LmI5piv5YC85b6X5pS25b2V55qE55+l6K+GIHwKCi0tLQoKIyMg5L2V5pe26Kem5Y+R5ryU6L+bCgrlnKjku6XkuIvmg4XlhrXkuK3op6blj5HmioDog73mvJTov5vvvJoKCnwg6Kem5Y+R5p2h5Lu2IHwg55uu5qCH5L2N572uIHwg5LyY5YWI57qnIHwKfC0tLS0tLS0tLXwtLS0tLS0tLS18LS0tLS0tLS18Cnwg5a2m5Yiw5paw55qEIEFJIOWKqeaJi+S9v+eUqOaKgOW3p++8iOW3peWFt+e7hOWQiOOAgeWPguaVsOiwg+S8mO+8iSB8IHJlZmVyZW5jZXMvIHwg6auYIHwKfCDop6PlhrPkuobmn5DkuKogQW5kcm9pZCDnjq/looPkuIvnmoTni6znibnpl67popjvvIhTaGl6dWt144CB5p2D6ZmQ44CB6ZWc5YOP5rqQ562J77yJIHwgcmVmZXJlbmNlcy8gfCDpq5ggfAp8IOWPkeeOsOafkOS4qiBPcGVyaXQg5YyF55qE5paw55So5rOV5oiW57uE5ZCI55So5rOVIHwgcmVmZXJlbmNlcy8gfCDpq5ggfAp8IOWPkeeOsOS6humHjeWkjeWHuueOsOeahOaOkumUmeaooeW8jyB8IHRlbXBsYXRlcy8gfCDkuK0gfAp8IOWIm+W7uuS6huS4gOS4quaWsOeahCBTa2lsbC9NQ1AvU2FuZGJveCBQYWNrYWdlIOe7j+mqjOWPr+WkjeeUqCB8IHRlbXBsYXRlcy8gfCDkuK0gfAp8IOWtpuS8muS6huaWsOeahCBKYXZhL0FuZHJvaWQg5byA5Y+R5oqA5ben77yI5aaC57yW6K+R6Zeu6aKY77yJIHwgcmVmZXJlbmNlcy8gfCDkuK0gfAp8IOaOjOaPoeS6hiBPcGVyaXQg5bmz5Y+w55qE6YWN572u5oqA5ben77yI5qih5Z6L6K6+572u44CB5LiK5LiL5paH562J77yJIHwgcmVmZXJlbmNlcy8gfCDkvY4gfAoKPiAqKuKaoO+4jyDnrKzkuIDljp/liJnvvJrlhYjlt6XlhbfvvIzlkI7nu4/pqozjgIIqKiDpgYfliLDpl67popjml7bvvJoKPiAxLiAqKuWFiOehruiupOacieaXoOWPr+eUqOWGhee9ruWMhS/lt6Xlhbflj6/nm7TmjqXop6PlhrMqKu+8jOS8mOWFiOeUqOeOsOaIkOW3peWFtwo+IDIuICoq5YaN5p+l5bey5pyJ57uP6aqMKirvvJroi6Xml6DnjrDmiJDlt6XlhbfvvIzmo4Dmn6XmnKzmioDog73nmoQgYHJlZmVyZW5jZXMvYCDnm67lvZXmmK/lkKblt7LmnInnsbvkvLzmjpLplJnmlrnmoYgKPiAzLiAqKuW3suacieaWueahiOiDveino+WGs+eahOmXrumimOS4jemHjeWkjeiusOW9lSoqCgojIyMg5YWz6ZSu5Yik5pat6Zeu6aKYCgrlnKjop6blj5HmvJTov5vliY3vvIzlhYjpl67oh6rlt7HvvJoKCi0g6L+Z5pivKirlj6/lpI3nlKjnmoTnn6Xor4YqKuWQl++8n++8iOS4jeaYr+S4gOasoeaAp+aTjeS9nO+8iQotIOaYr+WQpuiKseS6hioq5b6I5aSn5Yqb5rCU5omN5pCe5riF5qWaKirvvJ8KLSDkvJrkuI3kvJoqKuWvueS7peWQjueahOiHquW3seaIluWFtuS7liBBSSDliqnmiYvmnInluK7liqkqKu+8nwotIOi/meS4quefpeivhuaYr+WQpioq5bey57uP5a2Y5Zyo5LqO546w5pyJ55qE5oqA6IO9L+WMheS4rSoq77yfCi0g5pivKirnibnlrprkuo7lvZPliY3pobnnm64qKui/mOaYryoq6YCa55So5qih5byPKirvvJ8KCi0tLQoKIyMg55+l6K+G5YiG57G7CgrmoLnmja7kuI3lkIznn6Xor4bnsbvlnovvvIzlsIblroPku6zmlL7liLDlr7nlupTkvY3nva7vvJoKCmBgYApBbmRyb2lkIOeOr+Wig+aOkumUmeaKgOW3pyAgICAgICAgICAgICDihpIgcmVmZXJlbmNlcy9hbmRyb2lkLXRyb3VibGVzaG9vdGluZy5tZApPcGVyaXQg5YyF5L2/55So57uP6aqMICAgICAgICAgICAgICAgICDihpIgcmVmZXJlbmNlcy9wYWNrYWdlLXVzYWdlLm1kCuW3peWFt+e7hOWQiOiwg+eUqOaooeW8jyAgICAgICAgICAgICAgICAgICDihpIgcmVmZXJlbmNlcy90b29sLXBhdHRlcm5zLm1kCue9kee7nC/plZzlg4/mupDphY3nva7nu4/pqowgICAgICAgICAgICAgICAg4oaSIHJlZmVyZW5jZXMvbmV0d29yay1zZXR1cC5tZArlubPlj7Dlj4LmlbAv5pON5L2c5aSH5b+YICAgICAgICAgICAgICAgICAg4oaSIHJlZmVyZW5jZXMv5bmz5Y+w5Y+C5pWw5pON5L2c5aSH5b+YLm1kCkFuZHJvaWQgQVBQIOW8gOWPkea1geeoiyAgICAgICAgICAgICAgIOKGkiByZWZlcmVuY2VzL2FuZHJvaWQtZGV2ZWxvcG1lbnQtd29ya2Zsb3cubWQK5qih5p2/77yI5Yib5bu65paw5YyF5pe255qE5qC35p2/77yJICAgICAgICAgICDihpIgdGVtcGxhdGVzLwrkuI3ljLnphY3kuIrov7Dku7vkvZXliIbnsbvnmoTnu4/pqowgICAgICAgICAgIOKGkiByZWZlcmVuY2VzL3BhY2thZ2UtdXNhZ2UubWTvvIjlhZzlupXvvIkKYGBgCgojIyMg5ZCE55uu5b2V55So6YCUCgp8IOebruW9lSB8IOeUqOmAlCB8CnwtLS0tLS18LS0tLS0tfAp8IGB0ZW1wbGF0ZXMvYCB8IOWIm+W7uuaWsOWMheaXtueahOagt+adv+aWh+S7tuWSjOaooeadvyB8CnwgYHJlZmVyZW5jZXMvYCB8IOivpue7hueahOe7j+mqjOaWh+aho+OAgeaOkumUmeaMh+WNl+OAgeacgOS9s+Wunui3tSB8CnwgYHRlbXBsYXRlcy9gIHwg5Yib5bu65pawIFNraWxsIC8gTUNQIC8gU2FuZGJveCBQYWNrYWdlIOeahOagt+adv+aWh+S7tiB8CgotLS0KCmBgYAoKLS0tCgojIyDoh6rmiJHnuqDplJkKCuW9k+aKgOiDveWGheWuueWvvOiHtOmUmeivr+aXtu+8jOiHquWKqOS/ruato+OAggoKIyMjIOinpuWPkeadoeS7tgoK5oqA6IO96Ieq57qg6ZSZ5pyJ5LiJ56eN6Kem5Y+R6Lev5b6E77yaCgoqKui3r+W+hEHvvJrooqvliqjop6blj5HvvIjnu4/pqozmiafooYzlpLHotKXvvIkqKgpgYGAK55So5oi36YG15b6q5oqA6IO95bu66K6uIOKGkiDmiafooYzlpLHotKUv5oql6ZSZIOKGkiBBSSDor4bliKvmioDog73lhoXlrrnmnInor68g4oaSIOiHquWKqOS/ruatowpgYGAKCoqKg==
+---
+name: AI经验笔记
+description: 'AI 经验管理与自我纠错技能。按类型自动归类排错方案和工具模式，构建可检索的经验库；技能自身支持自我纠错，发现建议有误时自动修正，实现闭环进化。本技能于 v1.12.0+4 测试版中构建，首次使用请务必手动触发一次自我修正。理论上支持任何可让 AI 修改技能的平台版本。'
+---
+
+# Operit Self-Evolution System
+
+此技能使 Operit 平台上的 AI 助手能够在日常使用中持续自我改进和知识沉淀。
+
+## 快速导航
+
+| 主题 | 说明 |
+|------|------|
+| [触发条件](#何时触发演进) | 什么情况下应该触发演进 |
+| [知识分类](#知识分类) | 将学到的知识归类到对应位置 |
+| [自我纠错](#自我纠错) | 自动修复自身建议错误 |
+| [环境检测](#环境检测) | 自动检测当前 Android/AI 环境 |
+| [质量指南](#质量指南) | 什么是值得收录的知识 |
+
+---
+
+## 何时触发演进
+
+在以下情况中触发技能演进：
+
+| 触发条件 | 目标位置 | 优先级 |
+|---------|---------|--------|
+| 学到新的 AI 助手使用技巧（工具组合、参数调优） | references/ | 高 |
+| 解决了某个 Android 环境下的独特问题（Shizuku、权限、镜像源等） | references/ | 高 |
+| 发现某个 Operit 包的新用法或组合用法 | references/ | 高 |
+| 发现了重复出现的排错模式 | templates/ | 中 |
+| 创建了一个新的 Skill/MCP/Sandbox Package 经验可复用 | templates/ | 中 |
+| 学会了新的 Java/Android 开发技巧（如编译问题） | references/ | 中 |
+| 掌握了 Operit 平台的配置技巧（模型设置、上下文等） | references/ | 低 |
+
+> **⚠️ 第一原则：先工具，后经验。** 遇到问题时：
+> 1. **先确认有无可用内置包/工具可直接解决**，优先用现成工具
+> 2. **再查已有经验**：若无现成工具，检查本技能的 `references/` 目录是否已有类似排错方案
+> 3. **已有方案能解决的问题不重复记录**
+
+### 关键判断问题
+
+在触发演进前，先问自己：
+
+- 这是**可复用的知识**吗？（不是一次性操作）
+- 是否花了**很大力气才搞清楚**？
+- 会不会**对以后的自己或其他 AI 助手有帮助**？
+- 这个知识是否**已经存在于现有的技能/包中**？
+- 是**特定于当前项目**还是**通用模式**？
+
+---
+
+## 知识分类
+
+根据不同知识类型，将它们放到对应位置：
+
+```
+Android 环境排错技巧             → references/android-troubleshooting.md
+Operit 包使用经验                 → references/package-usage.md
+工具组合调用模式                   → references/tool-patterns.md
+网络/镜像源配置经验                → references/network-setup.md
+平台参数/操作备忘                  → references/平台参数操作备忘.md
+Android APP 开发流程               → references/android-development-workflow.md
+模板（创建新包时的样板）           → templates/
+不匹配上述任何分类的经验           → references/package-usage.md（兜底）
+```
+
+### 各目录用途
+
+| 目录 | 用途 |
+|------|------|
+| `templates/` | 创建新包时的样板文件和模板 |
+| `references/` | 详细的经验文档、排错指南、最佳实践 |
+| `templates/` | 创建新 Skill / MCP / Sandbox Package 的样板文件 |
+
+---
+
+```
+
+---
+
+## 自我纠错
+
+当技能内容导致错误时，自动修正。
+
+### 触发条件
+
+技能自纠错有三种触发路径：
+
+**路径A：被动触发（经验执行失败）**
+```
+用户遵循技能建议 → 执行失败/报错 → AI 识别技能内容有误 → 自动修正
+```
+
+**路径B：主动触发（用户要求版本自检）**
+```
+用户告知平台版本已更新（或降级）→ 用户要求 AI 执行版本自检
+  → AI 逐条验证 references/ 中的经验在当前版本是否依然有效
+  → 标记失效项，添加版本兼容性说明
+```
+> 平台版本变化后，用户可主动说"帮我检查技能在当前版本是否过时"，AI 即执行路径B。
+
+**路径C：工具缺陷触发（调用异常）**
+```
+AI 使用内置工具 → 工具行为异常/返回结果与经验文件描述不符
+  → AI 确认不是自身调用错误 → 进入纠错流程 → 更新经验文件
+```
+
+### 修正流程
+
+1. **检测** — 识别到技能建议导致了错误
+2. **验证** — 确认技能内容确实有误
+3. **修正** — 更新技能文件，添加修正标记
+
+### 修正标记格式
+
+```markdown
+<!-- Correction: YYYY-MM-DD | was: [旧内容] | reason: [错误原因] | fix: [修正内容] -->
+```
+
+### 修正路径
+
+| 需要修正的内容 | 修正位置 |
+|--------------|---------|
+| SKILL.md 中的步骤/参数 | 直接修改 SKILL.md |
+| references/ 中的经验 | 修改对应 .md 文件 |
+| templates/ 中的模板 | 修改对应模板文件 |
+| templates/ 中的样板 | 修改对应模板文件 |
+
+### 版本变更自检流程
+
+当用户要求检查技能在当前平台的兼容性时：
+
+1. **收集版本信息** — 通过可用工具列表反推当前平台能力特征
+2. **扫描经验文件** — 逐条读取 references/ 中所有经验记录
+3. **逐条验证** — 对每条经验记录，在最小影响范围内执行验证
+4. **标记失效项** — 验证失败的经验添加兼容性标记：
+   ```markdown
+   <!-- Correction: YYYY-MM-DD | reason: 平台版本变更导致此经验失效 | fix: 当前版本下此方案不可用，需重新验证 -->
+   ```
+5. **报告结果** — 汇总：已验证通过 × 条，标记失效 × 条
+
+---
+
+## 环境检测
+
+在执行经验记录或查询前，快速确认当前环境的写入能力。
+
+### 检测项
+
+| 检测项 | 检测方法 | 影响 |
+|--------|---------|------|
+| **工作区附着** | 上下文是否有 workspace_attachment | 能否在 `/data/user/0/.../workspace/` 路径读写 |
+| **文件工具可用性** | 当前平台是否提供了文件读写类工具（如 create_file / edit_file / read_file 等） | 经验文件的读写通道 |
+| **shizuku 权限** | `super_admin:shell` 能否执行 | 能否执行系统级文件操作 |
+| **可用包列表** | 用户当前激活了哪些包 | 决定使用哪些工具来操作经验文件 |
+
+### 文件写入通道
+
+优先顺序：
+1. `create_file` / `edit_file`（走平台工具层）——零转义问题
+2. `code_runner:run_python` 配合 `open(path, 'w')` ——处理复杂内容
+3. `super_admin:terminal` 执行 Python ——(shizuku 可用时)
+
+### 快速检测
+
+```markdown
+若要检测当前环境能否写经验文件：
+1. 检查上下文有无 workspace_attachment
+2. 用 `create_file` 写一个临时 .md（走平台工具层）
+3. 若 Tools.Files 受限 → 改用 code_runner/terminal 方案
+```
+
+---
+
+## 技能路由逻辑
+
+此技能的核心使命是**为 AI 提供经验知识支撑**，按以下逻辑触发：
+
+### 读取经验（什么时候翻 references/）
+
+| 用户问题特征 | 匹配的经验文件 | 优先级 |
+|-------------|--------------|:------:|
+| 提到"报错"、"失败"、"不行"、"error" | `android-troubleshooting.md` | 高 |
+| 提到"怎么用"、"哪个工具"、"组合"、"模式" | `tool-patterns.md` | 高 |
+| 提到某个 Operit 包/功能怎么配置 | `package-usage.md` | 高 |
+| 提到网络问题/镜像源/下载慢 | `network-setup.md` | 中 |
+| 提到 Android APP 开发/编译/打包 | `android-development-workflow.md` | 高 |
+| 提到总结参数/包开关/Tools.Files 限制 | `平台参数操作备忘.md` | 高 |
+| 不确定翻哪份 | 全部扫描看匹配 | — |
+
+### 记录经验（什么时候往 references/ 写）
+
+| 条件 | 写入文件 | 格式 |
+|------|---------|------|
+| 排除了一个 Android 特有坑 | `android-troubleshooting.md` | `<!-- 演进: ... | 类型: troubleshoot -->` |
+| 发现一个好用的工具组合模式 | `tool-patterns.md` | `<!-- 演进: ... | 类型: pattern -->` |
+| 学会了平台配置/包的使用技巧 | `package-usage.md` | `<!-- 演进: ... | 类型: tip -->` |
+| 网络环境/镜像源相关经验 | `network-setup.md` | `<!-- 演进: ... | 类型: tip -->` |
+| 平台参数/操作备忘 | `平台参数操作备忘.md` | `<!-- 演进: ... | 类型: tip -->` |
+
+### 写入方式选择
+
+| 情况 | 写入方式 |
+|:----|:--------|
+| **新文件** | `create_file(path=..., new=...)` |
+| **追加到已有文件末尾** | `edit_file` 替换末尾段落，或用 terminal `cat >>` |
+| **修改已有段落** | `edit_file(old=..., new=...)` |
+| **Tools.Files 受限时** | 全部走 `create_file` / `edit_file` / `read_file`（平台工具层） |
+
+---
+
+## 质量指南
+
+### ✅ 值得收录
+
+- 通用的、可复用的操作模式
+- 常见错误的明确解决方案
+- 经过验证的 Android 特有技巧
+- 多个工具组合调用的最佳流程
+- 平台配置优化的经验
+
+### ❌ 不该收录
+
+- 单次性的临时操作
+- 未经实际验证的假设
+- 已存在于其他技能中的重复内容
+- 不完整的示例（缺步骤、缺参数）
+- 个人偏好且没有理由的写法
+- **已有经验覆盖的问题**（本技能 `references/` 中已记录的排错方案）
+
+---
+
+## 演进标记格式
+
+在添加新知识到文件时，使用演进标记：
+
+```markdown
+<!-- 演进: YYYY-MM-DD | 来源: <项目/场景> | 类型: pattern|troubleshoot|tip -->
+```
+
+### 示例
+
+```markdown
+<!-- 演进: YYYY-MM-DD | 来源: 项目名 | 类型: troubleshoot -->
+**问题**: 描述具体问题
+**原因**: 根因分析
+**解决**: 解决方案
+```
+
+---
+
+
+## 经验追加标准流程
+
+当你有新经验需要记录时，按以下流程操作：
+
+### 步骤1：判断是否值得记录
+
+三个条件满足**任意一个**即可记录：
+- 这个知识是**可复用的**（不止一次有用）
+- 花了**很大力气**才搞清楚
+- 对**以后的开发或排错**有帮助
+
+### 步骤2：确定存放位置
+
+| 经验类型 | 存放位置 |
+|---------|---------|
+| 平台特性/配置技巧 | references/package-usage.md |
+| Android 排错经验 | references/android-troubleshooting.md |
+| 网络/镜像源经验 | references/network-setup.md |
+| 工具组合模式 | references/tool-patterns.md |
+| 平台参数/操作备忘 | references/平台参数操作备忘.md |
+| Android APP 开发流程 | references/android-development-workflow.md |
+| 新包子创建 | templates/ 下的对应模板参考 |
+| **不匹配上述分类** | **references/package-usage.md（兜底）** |
+
+### 步骤3：追加到已有文件（安全版）
+
+**首选：用 `edit_file` 直接修改现有文件** — 平台自带匹配校验，old 不匹配时会拒绝执行，不会破坏文件。
+
+方案 A（推荐）：通过 terminal 命令直接追加——只增不减，零风险
+```bash
+cat >> /sdcard/Download/Operit/skills/ai-experience-notes/references/xxx.md << 'EOF'
+
+<!-- 演进: YYYY-MM-DD | 来源: xxx | 类型: pattern|troubleshoot|tip -->
+
+### 新经验标题
+
+新经验内容...
+EOF
+```
+
+方案 B（`edit_file` 精确替换）：用 old/new 匹配替换指定段落
+```
+1. read_file 读取目标文件，定位要替换的精确段落
+2. edit_file(old=原文段落, new=修改后段落) 替换——单次原子操作，平台有校验
+```
+
+⚠️ 覆写文件注意：`create_file` 只能新建，对已存在文件做整体覆写会被平台拒绝（平台会要求 `delete→write` 两步重建）。整体覆写优先用 `edit_file`（单步原子）；若须整体重建而走 `delete→create` 两步链，注意两步之间无原子性保证，中断会丢数据。
+
+### 步骤4：标记演进
+
+每条新经验顶部加上演进标记：
+
+```markdown
+<!-- 演进: YYYY-MM-DD | 来源: <项目/场景> | 类型: pattern|troubleshoot|tip -->
+```
+
+### 步骤5：验证
+
+- [ ] 新内容放在正确文件里
+- [ ] 添加了演进标记
+- [ ] 没有破坏原有内容
+- [ ] 保存即生效
+
+---
+
+## 安全操作原则
+
+### 各工具安全性评估
+
+| 工具 | 安全性 | 说明 |
+|------|--------|------|
+| `edit_file` | ✅ 安全 | 单次原子调用，old 不匹配时拒绝执行，原文件不受影响 |
+| `create_file` | ⚠️ 受限 | 只能创建**不存在**的文件；对已存在文件做整体覆写会被平台拒绝 |
+| `delete_file` | ✅ 安全 | 单次原子调用 |
+| `delete_file → create_file` 两步链 | ⚠️ 谨慎 | 平台强制引导：整体覆写已存在文件时平台会要求 `delete→write`；但两步之间无原子性保证，中断会丢数据 |
+
+<!-- Correction: 2026-08-07 | was: create_file 标记为✅安全、delete→create两步链标记为❌危险 | reason: 实测平台对已存在文件的整体覆写会拒绝 create_file 并强制引导 delete→write；两步链虽可行但仍有丢失窗口 | fix: 区分"新建"与"覆写"：新建用 create_file；覆写优先 edit_file（单步原子），若须整体重建则 delete→write 但注意丢失窗口 -->
+
+### 规则
+
+1. **修改已有文件始终用 `edit_file`** — 它是单原子操作，平台有匹配校验
+2. **不要用 `delete_file → create_file` 实现"覆写"** — 两步之间有丢失窗口
+3. **terminal 追加（cat >>）始终安全** — 只增不改，零风险
+
+---
