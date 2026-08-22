@@ -30,7 +30,7 @@ description: 'AI 经验管理与自我纠错技能。能自动记录并归类工
 | 创建了一个新的 Skill/MCP/Sandbox Package 经验可复用 | templates/ | 中 |
 | 学会了新的 Java/Android 开发技巧（如编译问题） | references/ | 中 |
 | 掌握了 Operit 平台的配置技巧（模型设置、上下文等） | references/ | 低 |
-| **修改/配置了平台参数或开关（模型参数、上下文总结、包开关、Tools.Files 等）** | `平台参数操作备忘.md` | 高 |
+| **修改/配置了平台参数或开关（模型参数、上下文总结、包开关、Tools.Files 等）** | `平台参数名词与踩坑.md` | 高 |
 
 > **⚠️ 第一原则：先工具，后经验。** 遇到问题时：
 > 1. **先确认有无可用内置包/工具可直接解决**，优先用现成工具
@@ -58,7 +58,7 @@ Android 环境排错技巧             → references/android-troubleshooting.md
 Operit 包使用经验                 → references/package-usage.md
 工具组合调用模式                   → references/tool-patterns.md
 网络/镜像源配置经验                → references/network-setup.md
-平台参数/操作备忘                  → references/平台参数操作备忘.md
+平台参数名词与踩坑                → references/平台参数名词与踩坑.md
 Android APP 开发流程               → references/android-development-workflow.md
 模板（创建新包时的样板）           → templates/
 不匹配上述任何分类的经验           → references/package-usage.md（兜底）
@@ -191,7 +191,7 @@ AI 使用内置工具 → 工具行为异常/返回结果与经验文件描述�
 | 提到某个 Operit 包/功能怎么配置 | `package-usage.md` | 高 |
 | 提到网络问题/镜像源/下载慢 | `network-setup.md` | 中 |
 | 提到 Android APP 开发/编译/打包 | `android-development-workflow.md` | 高 |
-| 提到总结参数/包开关/Tools.Files 限制 | `平台参数操作备忘.md` | 高 |
+| 提到总结参数/包开关/Tools.Files 限制 | `平台参数名词与踩坑.md` | 高 |
 | 不确定翻哪份 | 全部扫描看匹配 | — |
 
 ### 记录经验（什么时候往 references/ 写）
@@ -202,26 +202,27 @@ AI 使用内置工具 → 工具行为异常/返回结果与经验文件描述�
 | 发现一个好用的工具组合模式 | `tool-patterns.md` | `<!-- 演进: ... | 类型: pattern -->` |
 | 学会了平台配置/包的使用技巧 | `package-usage.md` | `<!-- 演进: ... | 类型: tip -->` |
 | 网络环境/镜像源相关经验 | `network-setup.md` | `<!-- 演进: ... | 类型: tip -->` |
-| 平台参数/操作备忘 | `平台参数操作备忘.md` | `<!-- 演进: ... | 类型: tip -->` |
+| 平台参数名词与踩坑 | `平台参数名词与踩坑.md` | `<!-- 演进: ... | 类型: tip -->` |
 
-### ⭐ 主动记录平台参数备忘（无需用户要求）
+### ⭐ 主动记录平台参数名词与踩坑（无需用户要求）
 
-执行或发现以下操作时，**主动**把参数/操作细节记入 `references/平台参数操作备忘.md`，不要等用户手动要求：
+遇到或确认以下情况时，**主动**把词条记入 `references/平台参数名词与踩坑.md`，不要等用户手动要求：
 
-- **模型/上下文配置**：设置或修改了 `model_config`、`context_summary_config`（阈值、context_length、max_context_length 等）
-- **包开关**：启用/关闭了某个包，或执行了 `set_sandbox_package_enabled` 等
-- **沙箱/文件限制**：遇到 Tools.Files、Shizuku、文件读写权限等平台限制及绕过方案
-- **其他平台机制**：任何被验证、被修改、被纠正的平台参数或行为
+- **平台参数/名词**：遇到不熟悉的 Operit 平台参数或名词，搞清含义后记录
+- **被误解的名词**：发现某个名词/参数曾被误读、误改，记录正确理解
+- **连带影响**：确认了调整某参数会连带影响什么（相互重置、副作用等）
+- **调参踩坑**：任何被验证、被纠正的平台参数调整过程中的坑
 
-**记录时机**：操作完成后立即记录（趁细节仍清晰），并补演进标记。
+**记录时机**：操作/验证完成后立即记录（趁细节仍清晰），并补演进标记。
 
 **记录内容要点**：
 ```
 <!-- 演进: YYYY-MM-DD | 来源: <场景> | 类型: tip -->
-## N. <参数/操作名>
-- 具体含义 / 当前值
-- 如何修改（用哪个工具/命令）
-- ⚠️ 注意事项 / 连带影响（如：改 A 会重置 B）
+### <参数/名词>
+- 含义：这个平台参数/名词的真实含义
+- 被误解的点：曾被怎么误读 / 误改
+- 连带影响：调整后会连带影响什么（相互重置、副作用等）
+- 注意事项：踩坑要点 / 正确做法
 ```
 
 ### 写入方式选择
@@ -295,7 +296,7 @@ AI 使用内置工具 → 工具行为异常/返回结果与经验文件描述�
 | Android 排错经验 | references/android-troubleshooting.md |
 | 网络/镜像源经验 | references/network-setup.md |
 | 工具组合模式 | references/tool-patterns.md |
-| 平台参数/操作备忘 | references/平台参数操作备忘.md |
+| 平台参数名词与踩坑 | references/平台参数名词与踩坑.md |
 | Android APP 开发流程 | references/android-development-workflow.md |
 | 新包子创建 | templates/ 下的对应模板参考 |
 | **不匹配上述分类** | **references/package-usage.md（兜底）** |
@@ -351,8 +352,6 @@ EOF
 | `create_file` | ⚠️ 受限 | 只能创建**不存在**的文件；对已存在文件做整体覆写会被平台拒绝 |
 | `delete_file` | ✅ 安全 | 单次原子调用 |
 | `delete_file → create_file` 两步链 | ⚠️ 谨慎 | 平台强制引导：整体覆写已存在文件时平台会要求 `delete→write`；平台有 `.backup/` 对象备份兜底可回朔，但两步间仍建议保留备份并谨慎执行 |
-
-<!-- Correction: 2026-08-07 | was: create_file 标记为✅安全、delete→create两步链标记为❌危险 | reason: 实测平台对已存在文件的整体覆写会拒绝 create_file 并强制引导 delete→write；两步链虽可行但仍有丢失窗口 | fix: 区分"新建"与"覆写"：新建用 create_file；覆写优先 edit_file（单步原子），若须整体重建则 delete→write 但注意丢失窗口 -->
 
 ### 规则
 
